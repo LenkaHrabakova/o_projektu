@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -11,48 +15,84 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Lenka R.</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a
-        class="navbar-brand"
-        href="https://www.czechitas.cz/cs/kalendar-akci/akce/23343/"
-        >DA web</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">O projektu</a>
-          <a class="nav-item nav-link active" href="lenka.html"
-            >Lenka <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="Ivana.html">Ivana</a>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark box-shadow">
+        <a
+          class="navbar-brand"
+          href="https://www.czechitas.cz/cs/kalendar-akci/akce/23343/"
+          >DA web</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">O projektu</a>
+            <a class="nav-item nav-link active" href="lenka.html"
+              >Lenka <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="Ivana.html">Ivana</a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
-    <div class="container-fluid">
-      <div class="row">
+    <main class="container p-3">
       <div class="media">
-        <img class="align-self-start mr-3" src="images/lenka.jpg" alt="LR">
-        <div class="media-body">
-          <h5 class="mt-0">Lenka Růžičková</h5>
-          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-          <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <img class="align-self-start m-3" src="images/lenka.jpg" alt="LR" />
+        <div class="media-body ml-5">
+          <h1>Lenka Růžičková</h1>
+          <p>
+            Původně jsem molekulární bioložka. Můj výzkum se točil kolem
+            rostlinných a houbových virů. Nakonec mě ale osud zavanul jinam a
+            vědu jsem opustila. V roce 2017 jsem s partou skvělých lidí
+            zakládala českobudějovickou Czechitas pobočku. A teď už tři roky
+            pracuji pro IT firmu, kde mám na starosti dokumentaci a testování.
+          </p>
+          <p>
+            V rámci projektu mám na starosti komunikaci se zapojenými lidmi a
+            kódování :)
+          </p>
+          <p>
+            Těším se, že se nám podaří připravit projekt, který bude pomáhat
+            lidem měnit jejich životy.
+          </p>
         </div>
       </div>
-    </div>
+    </main>
+    <footer class="pt-4 my-md-4 pt-md-4 border-top">
+      <p class="p-0 my-0 text-center">Pracovní šance</p>
+      <p class="p-0 my-0 text-center">
+        Lenka Růžičková &amp; Ivana Klementová, Digitální akademie: Web, ČB,
+        jaro 2021
+      </p>
+    </footer>
 
-    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

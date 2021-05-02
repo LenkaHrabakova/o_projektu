@@ -3,6 +3,25 @@
 }
 
 img {
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+h1 {
+  color: #1e2952;
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+}
+
+.container--img img {
+  display: block;
+}
+
+.text-muted {
+  color: #737373;
+}
+
+footer {
+  color: #1e2952;
 }

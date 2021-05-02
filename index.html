@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -11,53 +16,86 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Pracovní šance</title>
   </head>
   <body>
-    <!-- <div class="container-fluid"> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a
-        class="navbar-brand"
-        href="https://www.czechitas.cz/cs/kalendar-akci/akce/23343/"
-        >DA web</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html"
-            >O projektu <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="lenka.html">Lenka</a>
-          <a class="nav-item nav-link" href="Ivana.html">Ivana</a>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark box-shadow">
+        <a
+          class="navbar-brand"
+          href="https://www.czechitas.cz/cs/kalendar-akci/akce/23343/"
+          >DA web</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html"
+              >O projektu <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="lenka.html">Lenka</a>
+            <a class="nav-item nav-link" href="Ivana.html">Ivana</a>
+          </div>
         </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mx-auto container--img">
+        <img src="images/logo_navyblue.png" class="mx-auto" alt="logo" />
       </div>
-    </nav>
-    <!-- </div> -->
-    <div class="container-fluid">
-      <div class="row"></div>
-      <h3>
-        Pracovní šance
-        <small class="text-muted">Každý má tu svou.</small>
-      </h3>
-      <p class="text-justify">
-        Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit
-        amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus.
-        Praeterea iter est quasdam res quas ex communi. At nos hinc posthac,
-        sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in
-        diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+      <div class="container">
+        <h1 class="p-3">
+          Pracovní šance
+          <small class="text-muted">Každý má tu svou.</small>
+        </h1>
+        <p class="text-justify">
+          Projekt "Pracovní šance" vzniká ve spolupráci s neziskovými
+          organizacemi, firmami, sociálními pracovníky a kurátory. Cílem našeho
+          projektu je vytvořit pracovní server, kde budou lidé po výkonu trestu
+          nebo lidé z předčasného propuštění, hledat práci ve firmách, které
+          jsou zaměstnávání lidí po výkonu trestu naklonění.
+        </p>
+        <p>
+          Hledání práce po výkonu trestu je specifické a je spojeno se zklamáním
+          z neúspěchů při hledání a zároveň je nezbytné pro úspěšný návrat do
+          "normálního života". Nalezení práce zároveň umožňuje řešit své závazky
+          a splácet dluhy.
+        </p>
+        <p>
+          Chceme připravit prostředí, kde se budou tyhle dvě skupiny propojovat.
+        </p>
+      </div>
+    </main>
+    <footer class="pt-4 my-md-4 pt-md-4 border-top">
+      <p class="p-0 my-0 text-center">Pracovní šance</p>
+      <p class="p-0 my-0 text-center">
+        Lenka Růžičková &amp; Ivana Klementová, Digitální akademie: Web, ČB,
+        jaro 2021
       </p>
-    </div>
-  </div>
-    <script src="index.js"></script>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
